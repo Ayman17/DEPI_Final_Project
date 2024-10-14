@@ -13,7 +13,7 @@ import LetsYou from '../get_started_folder/LetsYou';
 const Home = ({ fetchResults, fetchRequest, authStatus, setNewDataGained }) => {
   useEffect(() => {
     fetchRequest(
-      `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_TMDB_API_KEY}`
+      `https://api.themoviedb.org/3/movie/popular?api_key=8d2351369fe29e287b6bcf66f8bfef7e`
     );
   }, []);
 
