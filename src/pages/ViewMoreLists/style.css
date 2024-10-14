@@ -1,0 +1,39 @@
+/* body {
+  background-color: #1b1b1b;
+}
+
+.popular-section {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  border: none;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.member-info,
+.reviewer-info {
+  display: flex;
+  align-items: center;
+}
+
+.member-details,
+.reviewer-details {
+  margin-left: 15px;
+}
+
+.text-muted {
+  font-size: 0.85rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.bi-eye,
+.bi-list {
+  margin-right: 5px;
+} */
