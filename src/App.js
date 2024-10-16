@@ -9,6 +9,8 @@ import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter } from 'react-router-dom';
 import MyRoutes from './pages/MyRoutes';
 import Footer from './components/Footer/Footer';
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./App.css"
 
 const App = () => {
   const [authStatus, setAuthStatus] = useState(false);
