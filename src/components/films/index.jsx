@@ -81,7 +81,7 @@ export default function Films() {
       <div className="w-60" onClick={() => {
         let searchResults = document.querySelector(".search-results");
 
-        if (searchResults.style.display == "block")
+        if (searchResults.style.display === "block")
           hideSearchResults();
       }}>
         <section className="search-section">

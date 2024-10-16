@@ -100,11 +100,6 @@
     display: none;
 }
 
-button{
-    width: 40px;
-    height: 20px;
-}
-
 .fa-star-half-stroke{
     color: limegreen;
 }
