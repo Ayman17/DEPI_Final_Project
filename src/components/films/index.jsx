@@ -78,7 +78,7 @@ export default function Films() {
 
   return (
     (people.length && movies.length ? 
-      <div className="w-60" onClick={() => {
+      <div className="w-60 mx-auto" onClick={() => {
         let searchResults = document.querySelector(".search-results");
 
         if (searchResults.style.display === "block")
