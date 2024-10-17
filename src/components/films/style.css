@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+:root{
+    --main-color: #2c3440;
+    --text-color: #9ab;
+    --link-color: #40bcf4;
+}
+
+::selection {
+    background: #40bcf4;
+    color: #fff;
+}
+
+body{
+    background: #14181c url(https://s.ltrbxd.com/static/img/content-bg.4284ab72.png) 0 -1px repeat-x;
+    background-position: 0 0;
+    color: var(--text-color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover{
+    color: var(--link-color);
+}
+
+.w-60{
+    width: 60%;
+}
+
+.f-12p{
+    font-size: 12px;
+}
+
+.f-11p{
+    font-size: 11px;
+}
+
+.f-10p{
+    font-size: 10px;
+}
+
+.select-filter{
+    width: 70px;
+    height: 25px;
+    background: #1b2127;
+    border: 1px solid #303840;
+    border-radius: 4px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    padding: 0;
+    position: relative;
+    cursor: default;
+}
+
+.select-filter a{
+    color: white;
+}
+
+.select-filter a:hover{
+    color: white;
+}
+
+.select-filter:hover{
+    color: white;
+}
+
+.year:hover ul{
+    display: block !important;
+    background-color: #678 !important;
+}
+
+.year ul:hover{
+    display: block;
+}
+
+.year li:hover{
+    background-color: var(--text-color);
+}
+
+.rating:hover ul{
+    display: block !important;
+    background-color: #678 !important;
+}
+
+.rating ul:hover{
+    display: block;
+}
+
+.rating li:hover{
+    background-color: var(--text-color);
+}
+
+.popular:hover ul{
+    display: block !important;
+    background-color: #678 !important;
+}
+
+.popular ul:hover{
+    display: block;
+}
+
+.popular li:hover{
+    background-color: var(--text-color);
+}
+
+.form-control{
+    background: #2c3440;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 13px;
+}
+
+.search-results{
+    width: 100%;
+    height: 80px;
+    padding-top: 3px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    background-color:#1b2127;
+    display: none;
+    overflow: hidden;
+    overflow-block:auto;
+    overflow-y: scroll;
+    font-size: 12px;
+}
+
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.section-header::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: var(--text-color);
+    bottom: -3px;
+}
+
+i{
+    color: #678;
+    width: 6px;
+}
+
+.arrow-left{
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translate(0, -80%);
+}
+
+.arrow-right{
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translate(0, -80%);
+}
+
+.films-image-container{
+    height: 280px;
+    transition: 0.1s all ease-in-out;
+    border-radius: 9px;
+}
+
+.films-image-container:hover{
+    border: 3px solid limegreen;
+}
+
+.film-stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+}
+
+.fa-2xs{
+    margin: 0 3px;
+}
+
+.fa-eye, .fa-star{
+    color: limegreen;
+}
+
+.fa-list{
+    color: rgb(63, 184, 211);
+}
+
+.fa-heart{
+    color: rgb(188, 127, 12);
+}
+
+.just-reviewed-image-container{
+    height: 100px;
+    width: 70px;
+    overflow: hidden;
+    transition: 0.1s all ease-in-out;
+    border-radius: 3px;
+}
+
+.just-reviewed-image-container:hover{
+    border: 3px solid limegreen;
+}
+
+.reviews-image-container{
+    height: 100px;
+    transition: 0.1s all ease-in-out;
+    border-radius: 3px;
+}
+
+.reviews-image-container:hover{
+    border: 3px solid limegreen;
+}
+
+.member-image-container{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+}
+
+.review-likes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.review-likes .fa-heart{
+    color:#678;
+}
+
+.reviewer-image-container{
+    height: 40px;
+    width: 40px;
+    margin-right: 7px;
+}
