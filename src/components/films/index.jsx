@@ -4,7 +4,7 @@ import axios from "axios"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./style.css"
 import "@fortawesome/fontawesome-free/css/all.min.css"
-import Loading from "../../components/Loading"
+import Loading from "../Loading"
 
 export default function Films() {
   const [movies, setMovies] = useState([]);
