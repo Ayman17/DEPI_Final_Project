@@ -16,11 +16,11 @@ const dropdownLinksData = [
     name: 'Members',
     link: '/members',
   },
-  {
-    id: uniqid(),
-    name: 'Reviews',
-    link: '/reviews',
-  },
+  // {
+  //   id: uniqid(),
+  //   name: 'Reviews',
+  //   link: '/reviews',
+  // },
 ];
 
 export default dropdownLinksData;

@@ -25,7 +25,7 @@ const PopularHome = ({ populars, setNewDataGained }) => {
       text-sh-grey"
       >
         <p className="text-sm hover:cursor-pointer hover:text-hov-blue">
-          POPULAR ON CLONNERBOXD
+          POPULAR ON LETTERBOXD
         </p>{' '}
         <p className="text-[11px] hover:cursor-pointer hover:text-hov-blue">
           MORE

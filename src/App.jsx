@@ -71,6 +71,7 @@ const App = () => {
           isNavTransparent={isNavTransparent}
           setNavTransparent={setNavTransparent}
         />
+        
         <Footer />
       </BrowserRouter>
     </>

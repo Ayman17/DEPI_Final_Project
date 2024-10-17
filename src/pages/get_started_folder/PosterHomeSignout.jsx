@@ -27,7 +27,7 @@ const PosterHomeSignout = ({ movie }) => {
       onMouseLeave={() => setVisibility(false)}
       key={movie.id}
     >
-      <Link to={'/movie/' + movie.id}>
+      <Link to={'/film/' + movie.id}>
         <img
           className="block rounded border"
           src={'https://image.tmdb.org/t/p/w500/' + movie.poster_path}

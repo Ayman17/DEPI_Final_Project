@@ -74,9 +74,11 @@ export default function MovieDetails() {
     }, [movieDetails])
 
     return (
-        <div className="vh-100 w-100">
-            <div className="film-background h-75 w-100">
-                <div className="layer"></div>
+        <>
+            <div>
+                <div className="film-background w-100">
+                    <div className="layer"></div>
+                </div>
             </div>
             <div className="d-flex justify-content-center">
                 <div className="w-60">
@@ -269,6 +271,6 @@ export default function MovieDetails() {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }

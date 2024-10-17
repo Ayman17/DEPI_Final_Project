@@ -23,8 +23,8 @@ const Journal = () => {
         </div>
       </nav> */}
       {/* Main Content */}
-      <div>
-        <div className="position-absolute w-100 ">
+      <div className="mb-5">
+        <div className="w-100 ">
           <div className="  overflow-auto bg-secondary pb-9">
             <div className="container mt-5  ">
               <div className="row ">

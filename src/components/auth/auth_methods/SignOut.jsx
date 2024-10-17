@@ -21,7 +21,7 @@ const SignOut = ({ setDDMobOpen }) => {
   };
   return (
     <>
-      <p className="block px-4 pt-2 md:p-0" onClick={onSignOut}>
+      <p className="block pt-3" onClick={onSignOut}>
         Sign Out
       </p>
     </>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/card.css';
+import {Link} from 'react-router-dom'
 
 const Story = ({ story }) => {
   return (

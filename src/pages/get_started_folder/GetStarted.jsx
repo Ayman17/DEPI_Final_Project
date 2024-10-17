@@ -28,7 +28,7 @@ const GetStarted = () => {
   return (
     <>
       <div
-        className="started-backdrop block h-[250px] max-h-[250px] md:m-auto md:mt-[-5%] md:h-[650px] md:max-h-[650px] md:w-[950px]"
+        className="started-backdroped block h-[250px] max-h-[250px] md:m-auto md:mt-[-5%] md:h-[650px] md:max-h-[650px] md:w-[950px]"
         style={{
           backgroundImage: `url(https://a.ltrbxd.com/resized/sm/upload/o8/dp/yo/aa/john-wick-chapter-4-1200-1200-675-675-crop-000000.jpg?v=2e60eff48c)`,
         }}

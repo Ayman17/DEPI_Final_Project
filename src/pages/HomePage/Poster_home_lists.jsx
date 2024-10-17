@@ -38,7 +38,7 @@ const PosterHomeLists = ({ movie, index }) => {
     shadow-inner"
       style={{ zIndex: fixedIndex }}
     >
-      <Link to={'/movie/' + movie.id}>
+      <Link to={'/film/' + movie.id}>
         <img
           className="rounded border md:h-[100px] md:w-[70px]"
           src={'https://image.tmdb.org/t/p/w500/' + movie.poster_path}

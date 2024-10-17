@@ -132,28 +132,6 @@ const ChangeUserInfo = ({ setProfileUpdated }) => {
           Update name
         </button>
       </div>
-      <div className="section-heading  m-auto mb-3 mt-4 flex  w-[50%]  justify-between  border-b border-solid  border-b-grey  text-xs  text-sh-grey">
-        <p className="text-sm hover:text-hov-blue">CHANGE YOUR BIO</p>{' '}
-      </div>
-      <div
-        className="m-auto 
-        flex
-        w-[50%]
-      flex-col
-      gap-3 md:flex-row"
-      >
-        <input
-          value={newBio}
-          type="text"
-          onChange={(e) => setNewBio(e.target.value)}
-        />
-        <button
-          className="sans-serif rounded bg-[#567] px-3 py-2 text-xs font-bold text-p-white"
-          onClick={() => updateUserBio(auth.currentUser.uid)}
-        >
-          Update bio
-        </button>
-      </div>
       <div className="mt-10 flex items-center justify-center">
         <button
           className="sans-serif rounded bg-[#567] px-3 py-2 text-xs font-bold text-p-white"

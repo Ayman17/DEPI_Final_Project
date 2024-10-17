@@ -4,7 +4,7 @@ import axios from "axios"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./style.css"
 import "@fortawesome/fontawesome-free/css/all.min.css"
-import Loading from "../Loading"
+import Loading from "../../components/Loading"
 
 export default function Films() {
   const [movies, setMovies] = useState([]);
@@ -57,13 +57,11 @@ export default function Films() {
   }
 
   function sliderNext(){
-    let incrementValue = (window.innerWidth < 992 ? 2 : 4);
-    setMovieSliderPosition((movieSliderPosition + incrementValue) % 20);
+    setMovieSliderPosition((movieSliderPosition + 4) % 20);
   }
 
   function sliderPrev(){
-    let decrementValue = (window.innerWidth < 992 ? 2 : 4);
-    setMovieSliderPosition(((movieSliderPosition - decrementValue) + 20) % 20);
+    setMovieSliderPosition(((movieSliderPosition - 4) + 20) % 20);
   }
 
   useEffect(() => {
