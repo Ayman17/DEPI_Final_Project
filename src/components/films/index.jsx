@@ -57,13 +57,11 @@ export default function Films() {
   }
 
   function sliderNext(){
-    let incrementValue = (window.innerWidth < 992 ? 2 : 4);
-    setMovieSliderPosition((movieSliderPosition + incrementValue) % 20);
+    setMovieSliderPosition((movieSliderPosition + 4) % 20);
   }
 
   function sliderPrev(){
-    let decrementValue = (window.innerWidth < 992 ? 2 : 4);
-    setMovieSliderPosition(((movieSliderPosition - decrementValue) + 20) % 20);
+    setMovieSliderPosition(((movieSliderPosition - 4) + 20) % 20);
   }
 
   useEffect(() => {

@@ -38,7 +38,7 @@ const MovieDetail = () => {
   ];
 
   return (
-    <div className="bg-black d-flex vh-100">
+    <div className="bg-black ">
       <div className="container  text-light w-75 ">
         <div className="row">
           <div className="banner-container col-lg-12">

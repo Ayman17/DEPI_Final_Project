@@ -14,7 +14,7 @@ const ResultComp = ({ movie, setNewDataGained }) => {
       <ResultPoster movie={movie} setNewDataGained={setNewDataGained} />
       <div className="flex flex-col">
         <Link
-          to={'/movie/' + movie.id}
+          to={'/film/' + movie.id}
           className="text-xl font-bold text-p-white"
         >
           {' '}

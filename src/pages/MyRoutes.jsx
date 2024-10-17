@@ -45,7 +45,8 @@ const MyRoutes = ({
           />
         }
       />
-      <Route 
+      
+      <Route
         path='/films'
         element={<Films/>}
       />
